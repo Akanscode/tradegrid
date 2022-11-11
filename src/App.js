@@ -1,23 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import LandingPage from "./Components/Common/LandingPage";
+
+import BuyerHeader from "./Components/SellerAndBuyer/BuyerHeader";
+import SellerHeader from "./Components/SellerAndBuyer/SellerHeader";
+import Faq from "./Components/FAQ/Faq";
+
+import AboutDisplay from "./Components/AboutUs/AboutDisplay";
+
+import ContactUs from "./Components/ContactUs/ContactUs";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<LandingPage />} />
+          <Route path="/about" element={<AboutDisplay />} />
+          <Route path="/faq" element={<Faq />} />
+          <Route path="/contact" element={<ContactUs />} />
+          <Route path="/buyers" element={<BuyerHeader />} />
+          <Route path="/seller" element={<SellerHeader />} />
+        </Routes>
+      </BrowserRouter>
     </div>
   );
 }

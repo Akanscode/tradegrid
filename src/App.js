@@ -1,11 +1,8 @@
 import LandingPage from "./Components/Common/LandingPage";
-
 import BuyerHeader from "./Components/SellerAndBuyer/BuyerHeader";
 import SellerHeader from "./Components/SellerAndBuyer/SellerHeader";
 import Faq from "./Components/FAQ/Faq";
-
 import AboutDisplay from "./Components/AboutUs/AboutDisplay";
-
 import ContactUs from "./Components/ContactUs/ContactUs";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 

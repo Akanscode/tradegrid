@@ -1,6 +1,9 @@
 import React from "react";
 import Navbar from "./Navbar";
-import hero from "../../../assests/hero.jpg";
+import { hero } from "../Data/data";
+import { vector1 } from "../Data/data";
+import { vector2 } from "../Data/data";
+import { vector3 } from "../Data/data";
 
 const Hero = () => {
   return (
@@ -54,10 +57,7 @@ const Hero = () => {
             <div className="mt-4 grid grid-cols-1 gap-4 md:grid-cols-3 lg:grid-cols-3 ">
               <div className="flex items-start justify-center rounded-xl bg-[#E873A8]/30 bg-opacity-90 border-[#e879f9] border-2 backdrop-blur-lg p-4 shadow-lg">
                 <div className="flex md:h-12 md:w-12 w-6 h-6 items-center justify-center ">
-                  <img
-                    src="https://www.thetradegrid.com/assets/images/b2b.svg"
-                    alt="pictu"
-                  />
+                  <img src={vector3} alt="pictu" />
                 </div>
 
                 <div className="ml-4">
@@ -71,10 +71,7 @@ const Hero = () => {
               </div>
               <div className="flex items-start justify-center rounded-xl bg-[#E873A8]/30 bg-opacity-90 border-[#e879f9] border-2 backdrop-blur-lg p-4 shadow-lg">
                 <div className="flex md:h-12 md:w-12 w-6 h-6 items-center justify-center ">
-                  <img
-                    src="https://www.thetradegrid.com/assets/images/tg.svg"
-                    alt="pictu"
-                  />
+                  <img src={vector2} alt="pictu" />
                 </div>
 
                 <div className="ml-4">
@@ -86,10 +83,7 @@ const Hero = () => {
               </div>
               <div className="flex items-start justify-center rounded-xl bg-[#E873A8]/30 bg-opacity-90 border-[#e879f9] border-2 backdrop-blur-lg p-4 shadow-lg">
                 <div className="flex md:h-12 md:w-12 w-6 h-6 items-center justify-center ">
-                  <img
-                    src="https://www.thetradegrid.com/assets/images/tgprod.svg"
-                    alt="pictu"
-                  />
+                  <img src={vector1} alt="pictu" />
                 </div>
 
                 <div className="ml-4">

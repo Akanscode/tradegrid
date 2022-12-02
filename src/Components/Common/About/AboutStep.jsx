@@ -1,4 +1,5 @@
 import React from "react";
+import { phoneimg } from "../Data/data";
 
 const AboutStep = () => {
   return (
@@ -65,11 +66,7 @@ const AboutStep = () => {
               </div>
             </div>
             <div>
-              <img
-                src="https://www.thetradegrid.com/assets/images/phone.svg"
-                alt="stepimg"
-                className=""
-              />
+              <img src={phoneimg} alt="stepimg" className="" />
             </div>
           </div>
         </div>

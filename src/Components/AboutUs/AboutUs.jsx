@@ -1,6 +1,6 @@
 import React from "react";
+import { abouthero } from "../Common/Data/data";
 import Navbar from "../Common/Header/Navbar";
-import abouthero from "../../../src/assests/abouthero.png";
 
 const AboutUs = () => {
   return (

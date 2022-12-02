@@ -1,6 +1,7 @@
 import React from "react";
 import { HiOutlineArrowLongRight } from "react-icons/hi2";
 import { Link } from "react-router-dom";
+import { globe } from "../Data/data";
 
 const Abouttrade = () => {
   return (
@@ -26,10 +27,7 @@ const Abouttrade = () => {
           </Link>
 
           <div className="">
-            <img
-              src="https://www.thetradegrid.com/assets/images/world.svg"
-              alt="globe"
-            />
+            <img src={globe} alt="globe" />
           </div>
         </div>
       </div>

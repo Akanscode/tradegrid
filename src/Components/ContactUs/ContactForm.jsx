@@ -1,5 +1,6 @@
 import React from "react";
 import { HiOutlinePhone } from "react-icons/hi2";
+import { kenyalogo, nigerialogo, usalogo } from "../Common/Data/data";
 
 const ContactForm = () => {
   return (
@@ -60,22 +61,14 @@ const ContactForm = () => {
               </div>
               <div className="flex flex-row gap-4">
                 <span className="flex flex-row gap-2">
-                  <img
-                    src="https://www.thetradegrid.com/assets/images/usa.svg"
-                    alt="countrylogo"
-                    className="h-6 w-6"
-                  />
+                  <img src={usalogo} alt="countrylogo" className="h-6 w-6" />
                   <p className="text-[#020202] uppercase">usa</p>
                 </span>
                 <p className="text-[#E873A8] font-medium">+1(312) 872 2863</p>
               </div>
               <div className="flex flex-row gap-4">
                 <span className="flex flex-row gap-2">
-                  <img
-                    src="https://www.thetradegrid.com/assets/images/ke.svg"
-                    alt="countrylogo"
-                    className="h-6 w-6"
-                  />
+                  <img src={kenyalogo} alt="countrylogo" className="h-6 w-6" />
                   <p className="text-[#020202] uppercase">ke</p>
                 </span>
                 <p className="text-[#E873A8] font-medium">+254 207 640 776</p>
@@ -83,7 +76,7 @@ const ContactForm = () => {
               <div className="flex flex-row gap-4">
                 <span className="flex flex-row gap-2">
                   <img
-                    src="https://www.thetradegrid.com/assets/images/nig.svg"
+                    src={nigerialogo}
                     alt="countrylogo"
                     className="h-6 w-6"
                   />

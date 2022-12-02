@@ -58,7 +58,7 @@ const Abouttradegrid = () => {
                 experience.
               </p>
               <Link
-                to="/src/Components/AboutUs/AboutDisplay.jsx"
+                to="/about"
                 className="text-[#3378F3] text-sm font-semibold pt-5 flex flex-row items-center gap-2  "
               >
                 Learn more about TradeGrid{" "}

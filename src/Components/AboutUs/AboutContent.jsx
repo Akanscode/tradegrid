@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 import { HiArrowLongRight, HiOutlineCheck } from "react-icons/hi2";
 import { Link } from "react-router-dom";
+import { shutterstockimg } from "../Common/Data/data";
 
 const AboutContent = () => {
   const [openTab, setOpenTab] = useState(1);
@@ -340,7 +341,7 @@ const AboutContent = () => {
                               <Link
                                 to="/src/Components/SellerAndBuyer/BuyerHeader.jsx"
                                 aria-label=""
-                                className="inline-flex items-center gap-2 text-[0.80rem] font-semibold transition-colors duration-200 text-[#3378F3]/70 "
+                                className="flex items-center justify-center gap-2 text-[0.80rem] font-semibold transition-colors duration-200 text-[#3378F3]/70 "
                               >
                                 Learn more as a buyer
                                 <span>
@@ -350,7 +351,7 @@ const AboutContent = () => {
                               <Link
                                 to="/src/Components/SellerAndBuyer/SellerHeader.jsx"
                                 aria-label=""
-                                className="inline-flex items-center gap-2 text-[0.80rem] font-semibold transition-colors duration-200 text-[#3378F3]/70 "
+                                className="flex items-center justify-center gap-2 text-[0.80rem] font-semibold transition-colors duration-200 text-[#3378F3]/70 "
                               >
                                 Learn more as a seller
                                 <span>
@@ -405,7 +406,7 @@ const AboutContent = () => {
                         {/**===========content two========== */}
                         <div className="flex flex-col  pt-6">
                           <img
-                            src="https://www.thetradegrid.com/assets/images/tgLog.png"
+                            src={shutterstockimg}
                             alt="productImage"
                             className="shadow-2xl w-auto h-auto md:w-[80vh] md:h-[50vh]"
                           />

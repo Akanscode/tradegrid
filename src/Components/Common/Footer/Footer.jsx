@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { HiChevronDown } from "react-icons/hi2";
 import { Link } from "react-router-dom";
-import { laptopimg, usalogo } from "../Data/data";
+import { laptopimg, usalogo } from "../../data";
 
 const Footer = () => {
   const [date, setDate] = useState();
@@ -15,7 +15,7 @@ const Footer = () => {
     <div className="bg-[#0E1F33] w-full">
       <div className="container mx-auto px-0 md:px-16 ">
         <div className=" p-2 flex items-center justify-center ">
-          <div className="  rounded-lg shadow-lg py-10 md:py-12 px-4  md:px-6 bg-[#ECF3FE] h-[500px] md:h-[425px] w-[350px] md:w-[1240px]  mt-[-100px]  md:mt-[-150px]">
+          <div className="  rounded-lg shadow-lg py-10 md:py-12 px-4 md:px-6 bg-[#ECF3FE] w-auto h-auto mt-[-80px] md:mt-[-100px]">
             <div className="flex flex-col md:flex-row md:p-6 gap-6 justify-between">
               <div className="space-y-5 pt-4 md:pt-10">
                 <h4 className="text-black font-semibold text-center text-[20px] md:text-[40px] ">
@@ -25,7 +25,7 @@ const Footer = () => {
                   Kindly click the button below to fill the form and our team
                   will be in touch.
                 </p>
-                <button className="bg-[#E873A8] p-2 md:h-[60px] md:w-[200px] h-[60.04px] w-[200px]mx-2 rounded-md text-white ">
+                <button className="bg-[#E873A8] px-4 py-3 rounded-md text-white ">
                   Sign up and start trading
                 </button>
               </div>

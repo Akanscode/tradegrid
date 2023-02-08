@@ -1,11 +1,11 @@
 import React from "react";
-import { phoneimg } from "../Data/data";
+import { phoneimg } from "../../data";
 
 const AboutStep = () => {
   return (
     <div>
       <section className="text-gray-600 bg-[#ECF3FE] w-full">
-        <div className="container mx-auto top-[100px] md:top-[200px]">
+        <div className="container mx-auto py-32">
           <div className="px-0 md:px-16 mx-auto">
             <div className="flex md:flex-row flex-col justify-between gap-6">
               <div>

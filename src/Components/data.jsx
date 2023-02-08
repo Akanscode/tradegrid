@@ -1,40 +1,40 @@
 // about images for carosuel
-export const carosuel0 = "./Images/carosuel0.png";
-export const carosuel = "./Images/carosuel.png";
-export const carosuel3 = "./Images/carosuel3.png";
-export const phoneimg = "./Images/phone.png";
-export const globe = "./Images/globe.png";
+export const carosuel0 = "/Images/carosuel0.png";
+export const carosuel = "/Images/carosuel.png";
+export const carosuel3 = "/Images/carosuel3.png";
+export const phoneimg = "/Images/phone.png";
+export const globe = "/Images/globe.png";
 
 // testimonail images
-export const testimoinalimg = "./Images/testimoinalimg.png ";
-export const testimoninalimg = "./Images/testimoninalimg.png";
+export const testimoinalimg = "/Images/testimoinalimg.png ";
+export const testimoninalimg = "/Images/testimoninalimg.png";
 
 // partner logo
-export const rainoil = "./Images/rainoil.png";
-export const rubis = "./Images/rubis.png";
-export const pinnacle = "./Images/pinnacle.png";
-export const mrs = "./Images/mrs.png";
-export const oryx = "./Images/oryx.png";
-export const eterna = "./Images/eterna.png";
-export const total = "./Images/total.png";
-export const oando = "./Images/oando.png";
+export const rainoil = "/Images/rainoil.png";
+export const rubis = "/Images/rubis.png";
+export const pinnacle = "/Images/pinnacle.png";
+export const mrs = "/Images/mrs.png";
+export const oryx = "/Images/oryx.png";
+export const eterna = "/Images/eterna.png";
+export const total = "/Images/total.png";
+export const oando = "/Images/oando.png";
 /// footer
-export const laptopimg = "./Images/laptop.png";
-export const usalogo = "./Images/usalogo.png";
-export const TradeGridlogo = "./Images/TradeGridlogo.png";
+export const laptopimg = "/Images/laptop.png";
+export const usalogo = "/Images/usalogo.png";
+export const TradeGridlogo = "/Images/TradeGridlogo.png";
 // contact us
-export const kenyalogo = "./Images/kenyalogo.png";
-export const nigerialogo = "./Images/nigerialogo.png";
+export const kenyalogo = "/Images/kenyalogo.png";
+export const nigerialogo = "/Images/nigerialogo.png";
 //about
-export const shutterstockimg = "./Images/shutterstock.png";
-export const abouthero = "./Images/abouthero.png";
+export const shutterstockimg = "/Images/shutterstock.png";
+export const abouthero = "/Images/abouthero.png";
 
 // hero image
 
-export const hero = "./Images/hero.jpg";
-export const vector1 = "./Images/vector1.png";
-export const vector2 = "./Images/vector2.png";
-export const vector3 = "./Images/vector3.png";
+export const hero = "/Images/hero.jpg";
+export const vector1 = "/Images/vector1.png";
+export const vector2 = "/Images/vector2.png";
+export const vector3 = "/Images/vector3.png";
 
 export const data = [
   {

@@ -1,9 +1,9 @@
 import React from "react";
 import Navbar from "./Navbar";
-import { hero } from "../Data/data";
-import { vector1 } from "../Data/data";
-import { vector2 } from "../Data/data";
-import { vector3 } from "../Data/data";
+import { hero } from "../../data";
+import { vector1 } from "../../data";
+import { vector2 } from "../../data";
+import { vector3 } from "../../data";
 
 const Hero = () => {
   return (
@@ -19,7 +19,7 @@ const Hero = () => {
           className="absolute inset-0 w-auto h-auto bg-gradient-to-l from-slate-900/20 to-slate-800 bg-opacity-70 backdrop-blur-sm "
         ></div>
         <div className="relative container mx-auto w-full">
-          <div className="px-0 md:px-16">
+          <div className="px-0 md:px-16 pb-6">
             <Navbar />
             <div className=" pt-8 md:pt-20 flex flex-col">
               {/**=========hero text========== */}
@@ -34,7 +34,7 @@ const Hero = () => {
               <h1 className="px-4 text-2xl sm:text-4xl md:text-6xl pb-4 font-sans  font-bold">
                 <span className="text-[#E873A8]"> Grow boundlessly</span>
               </h1>
-              <p className="px-4   mb-10 text-xs font-thin tracking-wide text-slate-50  sm:text-sm ">
+              <p className="px-4 mb-10 text-xs font-thin tracking-wide text-slate-50  sm:text-sm ">
                 Join the largest community of independent brands, retailers and
                 corporates- leaping into
                 <br /> the future of trade, through our combination of modern

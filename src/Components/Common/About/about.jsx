@@ -1,5 +1,5 @@
 import { useState, useRef, useEffect } from "react";
-import { data } from "../Data/data";
+import { data } from "../../data";
 import AboutStep from "./AboutStep";
 import Abouttrade from "./abouttrade";
 import Abouttradegrid from "./Abouttradegrid";
@@ -39,7 +39,7 @@ const About = () => {
 
   return (
     <div>
-      <div className="relative bg-white w-full  ">
+      <div className="relative bg-white w-full">
         <div className="carousel relative container mx-auto ">
           <div className="px-0 md:px-16 mx-auto py-32">
             <div className="relative   ">

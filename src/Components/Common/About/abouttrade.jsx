@@ -1,7 +1,7 @@
 import React from "react";
 import { HiOutlineArrowLongRight } from "react-icons/hi2";
 import { Link } from "react-router-dom";
-import { globe } from "../Data/data";
+import { globe } from "../../data";
 
 const Abouttrade = () => {
   return (
@@ -19,7 +19,7 @@ const Abouttrade = () => {
               needs
             </p>
             <Link
-              to="/src/Components/AboutUs/AboutDisplay.jsx"
+              to=""
               className="text-[#3378F3] text-sm font-semibold pt-5 flex flex-row items-center gap-2  "
             >
               Learn more about TradeGrid{" "}

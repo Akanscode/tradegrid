@@ -7,8 +7,8 @@ const Abouttradegrid = () => {
     <div>
       <div className="bg-[#0E1F33] w-full">
         <div className="container mx-auto">
-          <div className="px-0 md:px-16 mx-auto">
-            <div className="flex flex-col md:mx-auto xl:mx-40 ">
+          <div className="px-0 md:px-16 mx-auto py-32">
+            <div className="flex flex-col">
               <div className="bg-white py-20 md:py-40 rounded-xl flex items-center justify-center justify-items-center shadow-md w-auto ">
                 <div className="flex justify-center">
                   <div className="flex justify-center p-4 bg-slate-50 ring-2 ring-slate-900 rounded-lg shadow-xl w-20">

@@ -13,7 +13,7 @@ const FaqData = () => {
     <div>
       <div className="bg-white w-full">
         <div className="container mx-auto">
-          <div className="px-auto md:px-16">
+          <div className="px-auto md:px-16 py-32">
             <div className=" flex items-center justify-center mx-auto">
               <div className=" rounded-md pt-10">
                 {faq.map((val, index) => (

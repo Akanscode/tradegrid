@@ -30,11 +30,7 @@ const Footer = () => {
                 </button>
               </div>
               <div>
-                <img
-                  src={laptopimg}
-                  alt="newsimg"
-                  className="md:h-[332.1px] md:w-[572.54px] w-[300.14px] h-[174.1px]"
-                />
+                <img src={laptopimg} alt="newsimg" className="w-auto h-auto" />
               </div>
             </div>
           </div>

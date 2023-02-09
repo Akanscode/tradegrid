@@ -5,7 +5,7 @@ const SellerContent = () => {
     <div>
       <div className="bg-white w-full">
         <div className="container mx-auto">
-          <div className="px-0 md:px-16">
+          <div className="px-0 md:px-16 py-32">
             <div className="flex flex-col md:flex-row justify-between gap-8">
               <div className="flex flex-col pt-6">
                 <h2 className="text-[#190D2D] font-medium text-[1.50rem]">

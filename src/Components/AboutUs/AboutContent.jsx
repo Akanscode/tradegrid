@@ -10,7 +10,7 @@ const AboutContent = () => {
     <>
       <div className="bg-white w-full">
         <div className=" container mx-auto">
-          <div className="px-0 md:px-16">
+          <div className="px-0 md:px-16 py-32">
             <div className="flex flex-col items-center justify-center pt-32 ">
               <h2 className="text-black font-medium text-[2.0rem] capitalize">
                 our products

@@ -9,9 +9,9 @@ const Faq = () => {
     <div>
       <div className="bg-[#0E1F33] w-full">
         <div className="relative container mx-auto">
-          <div className="px-0 md:px-16 py-12">
+          <div className="px-0 md:px-16 ">
             <Navbar />
-            <div className="pt-10 md:pt-20 flex flex-col items-center justify-center">
+            <div className="py-20 flex flex-col items-center justify-center">
               <h1 className="px-2 text-center text-3xl sm:text-4xl text-[#fff]/70 md:text-6xl pb-4 font-PT Sans  font-bold">
                 Frequently Asked Questions
               </h1>
